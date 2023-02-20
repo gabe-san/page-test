@@ -1,0 +1,41 @@
+body {
+    background-color: #3b3c3d;
+    color: white;
+}
+.top {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left-logo {
+    font-weight: 900;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.right-links {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.container {
+    display:flex;
+    flex:wrap;
+    padding: 50px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.left-container {
+    padding: 20px;
+}
